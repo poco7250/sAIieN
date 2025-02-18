@@ -34,3 +34,13 @@
 <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
 <img src="https://img.shields.io/badge/jira-0052CC?style=for-the-badge&logo=jira&logoColor=white">
 <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+## ⛓️ ERD
+![sAIien-ERD](https://github.com/user-attachments/assets/3190df8a-f7ba-4f54-a4a4-0b92cf9cf660)
+## 시스템 아키텍처
+![sAIien-시스템 아키텍쳐](https://github.com/user-attachments/assets/28c68857-baac-47db-b794-63fd6188dbfc)
+## 서비스 플로우
+![sAIien-서비스 플로우](https://github.com/user-attachments/assets/c7894cdc-11a7-461d-8636-af23faf53270)
+
+## 🌱 맡은 역할
+- 백엔드, 프론트엔드 담당
+- 
