@@ -373,7 +373,7 @@ function formatCurrency(value) {
             const costPrice = document.getElementById("costPrice");
 
             if (!fixedPrice.value.trim() || isNaN(fixedPrice.value)) {
-                alert("정찰가는 필수이며 숫자여야 합니다.");
+                alert("원가는 필수이며 숫자여야 합니다.");
                 isValid = false;
             }
 
@@ -383,7 +383,7 @@ function formatCurrency(value) {
             }
 
             if (!costPrice.value.trim() || isNaN(costPrice.value)) {
-                alert("원가는 필수이며 숫자여야 합니다.");
+                alert("정찰가는 필수이며 숫자여야 합니다.");
                 isValid = false;
             }
 
