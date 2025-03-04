@@ -40,11 +40,28 @@ sAlieN은 사용자들에게 더 편리한 CRM 서비스를 제공하면서 백�
 ![sAIien-ERD](https://github.com/user-attachments/assets/3190df8a-f7ba-4f54-a4a4-0b92cf9cf660)
 ## 시스템 아키텍처
 ![sAIien-시스템 아키텍쳐](https://github.com/user-attachments/assets/28c68857-baac-47db-b794-63fd6188dbfc)
+<br>
+Spring Boot, PostgreSQL, AI 모델 서버를 각각 Docker 컨테이너로 실행<br>
+Spring Boot는 JPA를 이용해 PostgreSQL과 연결되며,
+AI모델 서버(Fast API)와는 REST API를 통해 통신<br>
+<br>
+Docker-compose를 이용해 컨테이너간 네트워크를 구성하여 Spring Boot가 DB와 AI 서버를 효율적으로 호출할 수 있도록 함
+
 ## 서비스 플로우
 ![sAIien-서비스 플로우](https://github.com/user-attachments/assets/c7894cdc-11a7-461d-8636-af23faf53270)
+<br>
+기본적인 CRM의 리드 – 영업 – 계약 – 주문 및 관리 흐름에서
+
+- AI 통화 요약 자동화를 통한 영업 기회 분석 시간 단축<br>
+- AI 어시스턴트를 통한 업무 자동화<br>
+- 영업 기회 기반 AI 제안서 자동 생성<br>
+
+기능을 통해 업무 효율을 극대화하여 영업 성공률을 높임
+<br>
 
 ## 맡은 역할
-- 백엔드, 프론트엔드 담당
+- 프로젝트 인원 : 7명(AI 모델 3명, 백엔드 및 프론트엔드 4명)
+- 백엔드(40%), 프론트엔드(25%) 담당
 
 ## ⚙️ 기능 구현
 - 일반 사원 전용 메인화면 구성
