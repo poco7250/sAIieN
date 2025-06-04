@@ -44,8 +44,6 @@ sAlieN은 사용자들에게 더 편리한 CRM 서비스를 제공하면서 백�
 Spring Boot, PostgreSQL, AI 모델 서버를 각각 Docker 컨테이너로 실행<br>
 Spring Boot는 JPA를 이용해 PostgreSQL과 연결되며,
 AI모델 서버(Fast API)와는 REST API를 통해 통신<br>
-<br>
-Docker-compose를 이용해 컨테이너간 네트워크를 구성하여 Spring Boot가 DB와 AI 서버를 효율적으로 호출할 수 있도록 함
 
 ## 서비스 플로우
 ![sAIien-서비스 플로우](https://github.com/user-attachments/assets/c7894cdc-11a7-461d-8636-af23faf53270)
